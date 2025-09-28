@@ -126,7 +126,7 @@ def main():
                     
             elif opcao == 'g':
                 try:
-                    print("\n📄 OPÇÕES DE VISUALIZAÇÃO DO ARQUIVO:")
+                    print("\n OPÇÕES DE VISUALIZAÇÃO DO ARQUIVO:")
                     print("1. Visão geral do arquivo")
                     print("2. Conexões detalhadas")
                     
@@ -178,5 +178,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
