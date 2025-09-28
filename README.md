@@ -13,3 +13,40 @@ Em ambientes educacionais, os estudantes serão os usuários primários, interag
 Ao incluir músicas de artistas locais e de gêneros menos conhecidos, o sistema ajuda a valorizar a diversidade cultural e preservar o patrimônio musical, o que está em conformidade com a Meta 11.4 do ODS 11, que visa proteger e salvar o patrimônio cultural imaterial. O sistema de recomendação promove a inclusão cultural, oferecendo visibilidade para artistas locais e uma maior representatividade de diferentes estilos musicais nas plataformas de streaming.
 O objetivo final é criar não apenas uma ferramenta tecnológica, mas um instrumento de preservação cultural que incentive a descoberta de novos horizontes musicais, respeitando as preferências individuais enquanto expande o repertório cultural dos usuários.
 
+2. Estrutura do Grafo
+
+O grafo é construído com base em um arquivo de texto (Grafo.txt), que define os vértices e as arestas do sistema. A estrutura do arquivo é a seguinte:
+Tipo do Grafo: O valor 0 indica um grafo não-orientado sem peso.
+Vértices: Os 66 vértices do grafo são numerados de 0 a 65 e representam músicas, artistas e gêneros.
+Arestas: São 260 arestas que conectam os vértices, representando as relações entre eles. Por exemplo, uma aresta conecta a música "Aquarela do Brasil" (vértice 0) ao seu artista "Ary Barroso" (vértice 20) e ao seu gênero "Samba" (vértice 43).
+
+3. Funcionalidades da Aplicação
+
+A aplicação é executada a partir do arquivo main.py e oferece um menu interativo com as seguintes opções:
+a) Ler dados do arquivo grafo.txt: Carrega o grafo do arquivo de texto para a memória, utilizando a classe TGrafoND.
+b) Gravar dados no arquivo grafo.txt: Salva o grafo atualmente em memória no arquivo de texto.
+c) Inserir vértice: Permite adicionar uma nova música, artista ou gênero ao grafo.
+d) Inserir aresta: Adiciona uma nova conexão entre dois vértices.
+e) Remover vértice: Exclui um vértice e todas as arestas conectadas a ele.
+f) Remover aresta: Remove uma conexão específica entre dois vértices.
+g) Mostrar conteúdo do arquivo: Exibe o conteúdo do arquivo Grafo.txt de forma organizada.
+h) Mostrar grafo: Visualiza a matriz de adjacência do grafo, paginada para facilitar a leitura.
+i) Apresentar conexidade: Analisa e informa se o grafo é conexo ou desconexo.
+j) Encerrar a aplicação: Finaliza a execução do programa.
+
+4. Como Executar
+
+Certifique-se de ter o Python instalado.
+Clone este repositório para a sua máquina local.
+Abra um terminal na pasta do projeto.
+Execute o arquivo principal com o comando:
+  Bash
+    python main.py
+
+5. Contribuições
+
+Este projeto foi desenvolvido por:
+
+Bernardo de Souza Pereira - RA: 10312871 
+Matheus Queiroz Gregorin - RA: 10418143 
+Pedro Henrique Cagnoni Guimaraes - RA: 10417477
