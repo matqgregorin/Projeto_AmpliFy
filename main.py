@@ -156,8 +156,6 @@ def main():
                 
                 if conexidade == 0:
                     print("O grafo é conexo")
-                elif conexidade == 2:
-                    print("O grafo é vazio")
                 else:
                     print("O grafo é desconexo")
                     
@@ -180,3 +178,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
