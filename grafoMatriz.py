@@ -340,7 +340,7 @@ class TGrafoND:
                 7: "Orientado com peso nos vértices e arestas"
             }
             
-            print(f"\n🏷️  TIPO DO GRAFO:")
+            print(f"\n  TIPO DO GRAFO:")
             print(f"   Código: {tipo_grafo}")
             print(f"   Descrição: {tipos_desc.get(tipo_grafo, 'Tipo desconhecido')}")
             
@@ -556,4 +556,5 @@ class TGrafoND:
         if all(visitado):
             return 0  # Conexo
         else:
+
             return 1  # Desconexo
