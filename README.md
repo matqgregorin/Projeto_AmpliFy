@@ -23,7 +23,7 @@ Arestas: São 260 arestas que conectam os vértices, representando as relações
 3. Funcionalidades da Aplicação
 
 A aplicação é executada a partir do arquivo main.py e oferece um menu interativo com as seguintes opções:
-a) Ler dados do arquivo grafo.txt: Carrega o grafo do arquivo de texto para a memória, utilizando a classe TGrafoND. \n
+a) Ler dados do arquivo grafo.txt: Carrega o grafo do arquivo de texto para a memória, utilizando a classe TGrafoND. /n
 b) Gravar dados no arquivo grafo.txt: Salva o grafo atualmente em memória no arquivo de texto. \n
 c) Inserir vértice: Permite adicionar uma nova música, artista ou gênero ao grafo. \n 
 d) Inserir aresta: Adiciona uma nova conexão entre dois vértices. \n 
