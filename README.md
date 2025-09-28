@@ -23,16 +23,16 @@ Arestas: São 260 arestas que conectam os vértices, representando as relações
 3. Funcionalidades da Aplicação
 
 A aplicação é executada a partir do arquivo main.py e oferece um menu interativo com as seguintes opções:
-a) Ler dados do arquivo grafo.txt: Carrega o grafo do arquivo de texto para a memória, utilizando a classe TGrafoND.
-b) Gravar dados no arquivo grafo.txt: Salva o grafo atualmente em memória no arquivo de texto.
-c) Inserir vértice: Permite adicionar uma nova música, artista ou gênero ao grafo.
-d) Inserir aresta: Adiciona uma nova conexão entre dois vértices.
-e) Remover vértice: Exclui um vértice e todas as arestas conectadas a ele.
-f) Remover aresta: Remove uma conexão específica entre dois vértices.
-g) Mostrar conteúdo do arquivo: Exibe o conteúdo do arquivo Grafo.txt de forma organizada.
-h) Mostrar grafo: Visualiza a matriz de adjacência do grafo, paginada para facilitar a leitura.
-i) Apresentar conexidade: Analisa e informa se o grafo é conexo ou desconexo.
-j) Encerrar a aplicação: Finaliza a execução do programa.
+a) Ler dados do arquivo grafo.txt: Carrega o grafo do arquivo de texto para a memória, utilizando a classe TGrafoND. \n
+b) Gravar dados no arquivo grafo.txt: Salva o grafo atualmente em memória no arquivo de texto. \n
+c) Inserir vértice: Permite adicionar uma nova música, artista ou gênero ao grafo. \n 
+d) Inserir aresta: Adiciona uma nova conexão entre dois vértices. \n 
+e) Remover vértice: Exclui um vértice e todas as arestas conectadas a ele. \n 
+f) Remover aresta: Remove uma conexão específica entre dois vértices. \n
+g) Mostrar conteúdo do arquivo: Exibe o conteúdo do arquivo Grafo.txt de forma organizada. \n
+h) Mostrar grafo: Visualiza a matriz de adjacência do grafo, paginada para facilitar a leitura. \n
+i) Apresentar conexidade: Analisa e informa se o grafo é conexo ou desconexo. \n
+j) Encerrar a aplicação: Finaliza a execução do programa. \n 
 
 4. Como Executar
 
