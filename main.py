@@ -25,7 +25,7 @@ def mostrar_menu():
     print("f) Remover aresta")
     print("g) Mostrar conteúdo do arquivo")
     print("h) Mostrar grafo")
-    print("i) Apresentar conexidade do grafo e o reduzido")
+    print("i) Apresentar conexidade do grafo")
     print("j) Encerrar a aplicação")
     print("=" * 50)
 
@@ -149,7 +149,7 @@ def main():
                 grafo.show_matriz_paginada()
                     
             elif opcao == 'i':
-                # Apresentar conexidade do grafo e o reduzido
+                # Apresentar conexidade do grafo
                 print(f"\n ANÁLISE DE CONEXIDADE:")
                
                 conexidade = grafo.conexidade()
@@ -178,4 +178,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
